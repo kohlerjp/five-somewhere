@@ -5,7 +5,8 @@ FiveSomewhere::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
   root 'static_pages#index'
-  match '/refresh', to: 'static_pages#index', via: 'get'
+  match '/index', to: 'static_pages#index', via: 'get'
+  match '/refresh', to: 'static_pages#refresh', via: 'get'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

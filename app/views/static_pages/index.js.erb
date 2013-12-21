@@ -1,2 +1,3 @@
-alert('boner');
-<% escape_javascript(time_hash = currentFive) %>
+$("#time").text('<%= @time_hash[:time]%>');
+$("#place").text('<%= @time_hash[:place]%>');
+$(".drink").text('<%= @time_hash[:drink]%>');
