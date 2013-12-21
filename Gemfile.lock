@@ -62,7 +62,7 @@ GEM
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.8.2)
-    newrelic_rpm (3.7.0.177)
+    newrelic_rpm (3.7.1.180)
     pg (0.15.1)
     polyglot (0.3.3)
     rack (1.5.2)
@@ -120,7 +120,7 @@ GEM
     uglifier (2.4.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    will_paginate (3.0.4)
+    will_paginate (3.0.5)
 
 PLATFORMS
   ruby
