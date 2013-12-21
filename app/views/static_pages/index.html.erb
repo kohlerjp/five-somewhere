@@ -1,5 +1,7 @@
-<div class="container">
+
+
+<div id="mainDiv" class="container">
 <% time_hash = currentFive %>
-  <h1 class="text-center"> It's <%= time_hash[:time]  %> in <br/> <%= time_hash[:place] %>  </h1>
-  <h2 class="text-center">Enjoy a <span class="drink"><%= time_hash[:drink] %> </span></h2>
+  <h1 id="headerOne" class="text-center"> It's <%= time_hash[:time]  %> in <br/> <%= time_hash[:place] %>  </h1>
+  <h2 id= "headerTwo" class="text-center">Enjoy <span class="drink"><%= time_hash[:drink] %> </span></h2>
 </div>
