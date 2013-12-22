@@ -4,5 +4,5 @@ $(document).ready(function(){
       type: "GET",
       url: "/index"
       });
-  }, 5000 );
+  }, 30000);
 });
