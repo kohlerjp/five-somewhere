@@ -29,6 +29,9 @@ gem 'bootstrap-sass', '~> 3.0.3.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+# social sharing
+gem 'shareable'
+
 #pagination
 gem 'bootstrap-will_paginate', '0.0.9'
 

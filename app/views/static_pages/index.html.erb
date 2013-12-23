@@ -5,4 +5,9 @@
   <h1 id="headerOne" class="text-center"> It's <span id="time"><%= @time_hash[:time] %></span> in <br/>
    <span id="place"><%= @time_hash[:place] %></span>  </h1>
   <h2 id= "headerTwo" class="text-center">Enjoy <span class="drink"><%= @time_hash[:drink] %> </span></h2>
+  <div class="row social">
+		  <%= facebook_button %>
+		  <%= twitter_button %>
+		  <%= google_plus_button %>
+  </div>
 </div>
