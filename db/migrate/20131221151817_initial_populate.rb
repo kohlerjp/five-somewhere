@@ -24,7 +24,7 @@ class InitialPopulate < ActiveRecord::Migration
   	Location.create(time_offset:3,place:"Tokyo, Japan",drink:"an Asahi Gold Lager") 
   	Location.create(time_offset:2,place:"Guam",drink:"a Great Deep Oatmeal Stout") 
   	Location.create(time_offset:1,place:"Melbourne, Australia",drink:"a Fosters") 
-  	Location.create(time_offset:24,place:"Anadyr, Russia",drink:"some Vodka") 
+  	Location.create(time_offset:0,place:"Anadyr, Russia",drink:"some Vodka") 
   	Location.create(time_offset:23,place:"Pago Pago, American Samoa",drink:"a Vailima Lager")  
   	Location.create(time_offset:22,place:"Honolulu, Hawaii",drink:"a Big Wave Golden Ale") 
   	Location.create(time_offset:21,place:"Anchorage, Alaska",drink:"a Cold One") 
