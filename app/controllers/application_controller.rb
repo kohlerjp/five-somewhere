@@ -11,6 +11,7 @@ class ApplicationController < ActionController::Base
     # get random city
     random_location = Location.where(time_offset:hour_num).sample
 
-    return {time:"5:#{datetime.strftime("%M")}",place:random_location.place,drink:random_location.drink}
+    return {time:"5:#{datetime.strftime("%M")}",
+        place:random_location.place,drink:random_location.drink,href:random_location.href}
   end
 end

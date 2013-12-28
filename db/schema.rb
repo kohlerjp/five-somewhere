@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20131221192848) do
     t.integer  "time_offset"
     t.string   "place"
     t.string   "drink",       default: "Cold One"
+    t.string   "href",        default: "#"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

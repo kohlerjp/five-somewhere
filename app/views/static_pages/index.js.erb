@@ -1,3 +1,4 @@
 $("#time").text('<%= @time_hash[:time]%>');
 $("#place").text('<%= @time_hash[:place]%>');
 $(".drink").text('<%= @time_hash[:drink]%>');
+$(".drinkLink").attr('href',"<%= @time_hash[:href] %>")
