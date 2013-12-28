@@ -14,10 +14,10 @@
 ActiveRecord::Schema.define(version: 20131221192848) do
 
   create_table "locations", force: true do |t|
-    t.integer  "time_offset"
+    t.integer  "time_zone"
     t.string   "place"
-    t.string   "drink",       default: "Cold One"
-    t.string   "href",        default: "#"
+    t.string   "drink",      default: "Cold One"
+    t.string   "href",       default: "#"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
