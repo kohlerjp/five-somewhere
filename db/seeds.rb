@@ -64,7 +64,7 @@
     # Second iteration
     # Location.create(time_zone:?,place:"???",drink:"#",href:"#")
     Location.create(time_zone:18,place:"Chicago, Illinois",drink:"a Gossamer Golden Ale",href:"http://halfacrebeer.com/gossamer-golden-ale")
-    Location.create(time_zone:11,place:"Madrid, Spain",drink:"some Sangria",href:"http://wine.about.com/od/redwines/r/basicSangria.htm")
+    Location.create(time_zone:1,place:"Madrid, Spain",drink:"some Sangria",href:"http://wine.about.com/od/redwines/r/basicSangria.htm")
     Location.create(time_zone:17,place:"Philadelphia, Pennsylvania",drink:"a Yards Pale Ale",href:"http://www.yardsbrewing.com/signature-ales")
     Location.create(time_zone:0,place:"Casablanca, Morocco",drink:"a Flag Speciale",href:"http://www.ratebeer.com/beer/flag-speciale-morocco/13890/")
     Location.create(time_zone:-6,place:"Mexico City, Mexico",drink:"a Carta Blanca Cerveza",href:"http://www.cartablanca.com.mx/")
