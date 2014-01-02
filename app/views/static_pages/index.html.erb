@@ -4,7 +4,7 @@
 
   <h1 id="headerOne" class="text-center"> It's <span id="time"><%= @time_hash[:time] %></span> in <br/>
    <span id="place"><%= @time_hash[:place] %></span>  </h1>
-  <h2 id= "headerTwo" class="text-center">Enjoy <a class="drinkLink" href="<%= @time_hash[:href] %>"><span class="drink"><%= @time_hash[:drink] %> </span></a></h2>
+  <h2 id= "headerTwo" class="text-center">Enjoy <a class="drinkLink" target="_blank" href="<%= @time_hash[:href] %>"><span class="drink"><%= @time_hash[:drink] %> </span></a></h2>
   <div class="social">
     <%= render_shareable :buttons=> ['twitter', 'facebook','google_plus'] %>
   </div>
